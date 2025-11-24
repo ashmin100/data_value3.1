@@ -1,0 +1,21 @@
+# LLM Provider
+LLM_PROVIDER=openai
+
+# OpenAI (기본)
+OPENAI_API_KEY=sk-hxSNHlAuR......
+
+# 기본 모델 (quick_scan, default_report)
+OPENAI_MODEL=gpt-5-mini
+
+# 고급 모델 (timeseries_analysis, value_assessment)
+OPENAI_MODEL_ADVANCED=gpt-5
+
+
+# 🔹 Anthropic (Claude) API 설정 (선택)
+ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ANTHROPIC_MODEL=claude-3-5-sonnet-20241022
+
+# 🔹 Google Gemini API 설정 (선택)
+GOOGLE_API_KEY=AIzaSyxxxxxxxxxxxxxxxxxxxxxxxx
+GEMINI_MODEL=gemini-2.0-flash
+GEMINI_MODEL_ADVANCED=gemini-2.0-flash-exp
